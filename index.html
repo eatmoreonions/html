@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Back Yard Picture</title>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+</head>
+<body>
+<font face="verdana" color="green">
+<center>
+<h1>Back Yard</h1>
+<img src=/images/still.jpg width=300 height=300>
+</center>
+
+Choose picture options:<br><br>
+<form action="/cgi-bin/newpic.py" method="POST">
+    <table>
+    <tr><td>Effect</td><td>Exposure</td></tr>
+    <tr><td><input type="radio" name="effect" value="none"> standard </td>
+    <td><input type="radio" name="exposure" value="off"> standard </td></tr>
+    <tr><td><input type="radio" name="effect" value="negative" > negative</td>
+    <td><input type="radio" name="exposure" value="auto" > auto </td></tr>
+    <tr><td><input type="radio" name="effect" value="solarise" > solarise</td>
+    <td><input type="radio" name="exposure" value="night" > night </td></tr>
+    <tr><td><input type="radio" name="effect" value="sketch" > sketch</td>
+    <td><input type="radio" name="exposure" value="backlight" > backlight </td></tr>
+    <tr><td><input type="radio" name="effect" value="denoise" > denoise</td>
+    <td><input type="radio" name="exposure" value="spotlight" > spotlight </td></tr>
+    <tr><td><input type="radio" name="effect" value="emboss" > emboss</td>
+    <td><input type="radio" name="exposure" value="sports" > sports </td></tr>
+    <tr><td><input type="radio" name="effect" value="oilpaint" > oilpaint</td>
+    <td><input type="radio" name="exposure" value="snow" > snow </td></tr>
+    <tr><td><input type="radio" name="effect" value="hatch" > hatch</td>
+    <td><input type="radio" name="exposure" value="beach" > beach </td></tr>
+    <tr><td><input type="radio" name="effect" value="gpen" > gpen</td>
+    <td><input type="radio" name="exposure" value="verylong" > very long </td></tr>
+    <tr><td><input type="radio" name="effect" value="pastel" > pastel</td>
+    <td><input type="radio" name="exposure" value="fireworks" > fireworks </td></tr>
+    <tr><td><input type="radio" name="effect" value="watercolour" > watercolor</td></tr>
+    <tr><td><input type="radio" name="effect" value="film" > film</td></tr>
+    <tr><td><input type="radio" name="effect" value="blur" > blur</td></tr>
+    <tr><td><input type="radio" name="effect" value="saturate" > saturate</td></tr>
+    <tr><td><input type="radio" name="effect" value="colourswap" > colourswap</td></tr>
+    <tr><td><input type="radio" name="effect" value="washedout" > washedout</td></tr>
+    <tr><td><input type="radio" name="effect" value="posterise" > posterise</td></tr>
+    <tr><td><input type="radio" name="effect" value="colourpoint" > colourpoint</td></tr>
+    <tr><td><input type="radio" name="effect" value="colourbalance" > colourbalance</td></tr>
+    <tr><td><input type="radio" name="effect" value="cartoon" > cartoon</td></tr>
+    </table>
+<br>
+<br>
+    <input type="submit" value="Submit">  
+    <input type="reset" value="Reset">
+
+</form>
+<br>
+<br><a href="https://www.thingspeak.com/channels/5738" target="_blank">Conditions</a>
+
+</font>
+</body>
+<head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+</head>
+</html>
