@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Create Timelapse Sequence</title>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+</head>
+<body>
+<font face="verdana" color="green">
+<center>
+<h1>Back Yard</h1>
+<img src=/images/still.jpg width=300 height=300>
+</center>
+
+Choose picture options:<br><br>
+<form action="/cgi-bin/tl.py" method="POST">
+Number of pictures in the sequence:
+<select name="count">
+<option value="1" selected>1</option>
+<option value="3">3</option>
+<option value="10">10</option>
+<option value="20">20</option>
+<option value="50">50</option>
+</select><br><br>
+Time between pictures:
+<select name="seperation">
+<option value="10">10 seconds</option>
+<option value="30" selected>30 seconds</option>
+<option value="60">1 minute</option>
+<option value="600">10 minutes</option>
+<option value="1800">30 minutes</option>
+<option value="3600">60 minutes</option>
+</select><br><br>
+<input type="submit" value="Submit"/>
+</form>
+
+
+</font>
+</body>
+<head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+</head>
+</html>
